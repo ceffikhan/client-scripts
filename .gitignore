@@ -1,0 +1,60 @@
+# ---------------------------
+# Node.js
+# ---------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------------------------
+# Environment variables
+# ---------------------------
+.env
+.env.*
+!.env.example
+
+# ---------------------------
+# OS / Editor files
+# ---------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ---------------------------
+# Build / Runtime
+# ---------------------------
+dist/
+build/
+coverage/
+logs/
+*.log
+
+# ---------------------------
+# Redis / DB dumps
+# ---------------------------
+dump.rdb
+*.rdb
+
+# ---------------------------
+# Temporary files
+# ---------------------------
+tmp/
+temp/
+.cache/
+
+# ---------------------------
+# Test artifacts
+# ---------------------------
+*.pid
+*.seed
+*.tgz
+
+# ---------------------------
+# Misc
+# ---------------------------
+*.bak
+*.orig
